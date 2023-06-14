@@ -1,0 +1,54 @@
+.item, footer{
+    border: 0.5px solid gray;
+}
+
+header img{
+    border: 0.5px solid gray;
+}
+
+header, .item, footer{
+    width: 25%;
+}
+
+header{
+    margin-bottom: -5px;
+}
+
+h1, h2, h3{
+    color: brown;
+}
+
+.item, footer{
+    margin-top: 0px;
+    background-color: aquamarine;
+}
+
+img{
+    height: auto;
+}
+
+.item li, .item p, span, .item label{
+    list-style: none;
+    color: rgb(173, 47, 167);
+}
+
+.item p::selection, .item li::selection, span::selection, .item label::selection{
+    background-color: black;
+    color: yellow;
+}
+
+.item li::before{
+    content: "- ";
+}
+
+.item li:hover, .item p:hover, span:hover, .item label:hover{
+    color: black;
+}
+
+footer a:checked{
+    color: black;
+}
+
+footer a:hover{
+    color: aliceblue;
+}
