@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(161, 139, 12);
+}
+nav{
+    background-color: rgb(9, 4, 47);
+    border-bottom: 3px solid white ;
+}
+
+nav a:first-child, nav a:nth-child(2){
+    color: aliceblue;
+}
+
+nav a:last-of-type{
+    color: lightgray;
+}
+
+ul{
+    color: lightgrey;
+}
+
+button{
+    all: unset;
+    color: gray;
+}
+
+input:last-of-type{
+    color: green;
+    background-color: rgb(9,4,47);
+    border-color: green;
+}
+
+input:last-of-type:hover{
+    color: white;
+    background-color: green;
+}
