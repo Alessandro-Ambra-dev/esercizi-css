@@ -33,3 +33,7 @@ input:last-of-type:hover{
     color: white;
     background-color: green;
 }
+
+nav ul, nav li{
+    display: inline;
+}
