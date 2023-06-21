@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+
+section{
+    margin: 0;
+    position: relative;
+}
+
+#orange{
+    flex: 1 0 auto;
+}
+
+#yellow{
+    order: -1;
+}
+
+#red{
+    order: -1;
+}
