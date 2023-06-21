@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+
+#links a{
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+#links li{
+    list-style: none;
+    
+}
+
+#links ul{
+    padding-left:unset;
+}
+
+#links a:hover{
+    transition: 0.3s;
+    color: #2b2bb2;
+}
+
+#links{
+    margin-top: 2rem;
+    flex: 1;
+}
+
+img{
+    width: 100%;
+    background: unset;
+}
+
+#avatarAndUsername img{
+    border-top: 1px solid gray ;
+    border-bottom: 1px solid gray;
+}
+
+#logo img{
+    border-bottom: 1px solid gray;
+}
+
+
