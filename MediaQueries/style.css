@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+
+div{
+    border-radius: 15px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+}
+
+h2:hover{
+    color: red;
+}
+
+div p:first-of-type{
+    color:aliceblue;
+}
+
+div img{
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+    }
+    
+}
+
+@media (max-width: 375px){
+    main{
+        display: flex;
+        justify-content: center;
+    }
+}
